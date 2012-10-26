@@ -7,12 +7,13 @@
 
 #ifndef FEUILLE_H
 #define	FEUILLE_H
+#include "Coup.h"
+#include <string>
 
 class Feuille {
 public:
     Feuille();
-    Feuille(const Feuille& orig);
-    virtual ~Feuille();
+    std::string type();
 private:
 
 };

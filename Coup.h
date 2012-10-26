@@ -7,11 +7,12 @@
 
 #ifndef COUP_H
 #define	COUP_H
+#include <string>
 
 class Coup {
 public:
     Coup();
-    virtual void type();
+    virtual std::string type()=0;
 private:
 
 };

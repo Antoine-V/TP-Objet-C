@@ -10,9 +10,7 @@
 Feuille::Feuille() {
 }
 
-Feuille::Feuille(const Feuille& orig) {
+std::string Feuille::type(){
+    std::string a = "Feuille";
+    return a;
 }
-
-Feuille::~Feuille() {
-}
-

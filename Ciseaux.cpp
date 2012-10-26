@@ -6,13 +6,12 @@
  */
 
 #include "Ciseaux.h"
-#include "iostream"
 
 Ciseaux::Ciseaux() {
 }
 
-
-void type(){
-    std::cout<<'Ciseaux';
+std::string Ciseaux::type(){
+    std::string a = "Ciseaux";
+    return a;
 }
 

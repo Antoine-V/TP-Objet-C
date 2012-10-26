@@ -10,9 +10,7 @@
 Pierre::Pierre() {
 }
 
-Pierre::Pierre(const Pierre& orig) {
+std::string Pierre::type(){
+    std::string a = "Pierre";
+    return a;
 }
-
-Pierre::~Pierre() {
-}
-

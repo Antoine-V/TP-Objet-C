@@ -7,11 +7,13 @@
 
 #ifndef CISEAUX_H
 #define	CISEAUX_H
+#include "Coup.h"
+#include <string>
 
 class Ciseaux :public Coup{
 public:
     Ciseaux();
-    virtual void type();
+    std::string type();
 private:
 
 };
