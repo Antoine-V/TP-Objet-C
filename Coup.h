@@ -15,6 +15,7 @@ public:
     virtual std::string type()=0;
 private:
 
+friend bool operator==(const Coup&,const Coup&);
 };
 
 #endif	/* COUP_H */

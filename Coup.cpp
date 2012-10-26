@@ -10,5 +10,7 @@
 Coup::Coup() {
 }
 
-
+bool operator==(const Coup& c1, const Coup& c2) {
+return c1.type() == c2.type();
+}
 

@@ -27,6 +27,11 @@ int main(int argc, char** argv) {
     std::cout<<B.type();
     std::cout<<"\n";
     std::cout<<C.type();
+    std::cout<<"\n";
+    if(A==B){
+       std::cout<<"Vrai!"; 
+    };
+    
     return 0;
 }
 
