@@ -8,6 +8,9 @@
 #include <cstdlib>
 #include <iostream>
 #include "Ciseaux.h"
+#include "Pierre.h"
+#include "Feuille.h"
+#include "Coup.h"
 
 using namespace std;
 
@@ -15,9 +18,15 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    std::cout<<"Bonjour!";
+    std::cout<<"Bonjour!\n";
     Ciseaux A;
+    Pierre B;
+    Feuille C;
     std::cout<<A.type();
+    std::cout<<"\n";
+    std::cout<<B.type();
+    std::cout<<"\n";
+    std::cout<<C.type();
     return 0;
 }
 
