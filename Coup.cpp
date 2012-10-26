@@ -10,9 +10,6 @@
 Coup::Coup() {
 }
 
-Coup::Coup(const Coup& orig) {
-}
-
-Coup::~Coup() {
+void type(){
 }
 

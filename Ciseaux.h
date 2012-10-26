@@ -8,11 +8,10 @@
 #ifndef CISEAUX_H
 #define	CISEAUX_H
 
-class Ciseaux {
+class Ciseaux :public Coup{
 public:
     Ciseaux();
-    Ciseaux(const Ciseaux& orig);
-    virtual ~Ciseaux();
+    virtual void type();
 private:
 
 };

@@ -6,13 +6,13 @@
  */
 
 #include "Ciseaux.h"
+#include "iostream"
 
 Ciseaux::Ciseaux() {
 }
 
-Ciseaux::Ciseaux(const Ciseaux& orig) {
-}
 
-Ciseaux::~Ciseaux() {
+void type(){
+    std::cout<<'Ciseaux';
 }
 

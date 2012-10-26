@@ -4,6 +4,10 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Ciseaux.h</itemPath>
+      <itemPath>Coup.h</itemPath>
+      <itemPath>Feuille.h</itemPath>
+      <itemPath>Pierre.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +16,10 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Ciseaux.cpp</itemPath>
+      <itemPath>Coup.cpp</itemPath>
+      <itemPath>Feuille.cpp</itemPath>
+      <itemPath>Pierre.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"

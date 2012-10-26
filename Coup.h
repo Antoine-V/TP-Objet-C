@@ -11,8 +11,7 @@
 class Coup {
 public:
     Coup();
-    Coup(const Coup& orig);
-    virtual ~Coup();
+    virtual void type();
 private:
 
 };

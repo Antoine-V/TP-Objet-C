@@ -6,6 +6,8 @@
  */
 
 #include <cstdlib>
+#include <iostream>
+#include "Ciseaux.h"
 
 using namespace std;
 
@@ -13,7 +15,9 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-
+    std::cout<<"Bonjour!";
+    Ciseaux A;
+    A.type();
     return 0;
 }
 

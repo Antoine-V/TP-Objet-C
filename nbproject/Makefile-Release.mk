@@ -34,7 +34,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/Ciseaux.o \
+	${OBJECTDIR}/Pierre.o \
+	${OBJECTDIR}/Feuille.o \
+	${OBJECTDIR}/Coup.o
 
 
 # C Compiler Flags
@@ -65,6 +69,26 @@ ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/main.o main.cpp
+
+${OBJECTDIR}/Ciseaux.o: Ciseaux.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/Ciseaux.o Ciseaux.cpp
+
+${OBJECTDIR}/Pierre.o: Pierre.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/Pierre.o Pierre.cpp
+
+${OBJECTDIR}/Feuille.o: Feuille.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/Feuille.o Feuille.cpp
+
+${OBJECTDIR}/Coup.o: Coup.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/Coup.o Coup.cpp
 
 # Subprojects
 .build-subprojects:
